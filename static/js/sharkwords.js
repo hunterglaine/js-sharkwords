@@ -40,7 +40,7 @@ const generateLetterButtons = () => {
 //
 const disableLetterButton = (buttonEl) => {
   const button = $(buttonEl);
-  button.attr('disabled', 'true');
+  button.attr('disabled', true);
 };
 
 // Return `true` if `letter` is in the word.
