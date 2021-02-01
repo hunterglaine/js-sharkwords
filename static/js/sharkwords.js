@@ -39,7 +39,8 @@ const generateLetterButtons = () => {
 // `buttonEl` is an `HTMLElement` object.
 //
 const disableLetterButton = (buttonEl) => {
-  // Replace this with your code
+  const button = $(buttonEl);
+  button.attr('disabled', 'true');
 };
 
 // Return `true` if `letter` is in the word.
